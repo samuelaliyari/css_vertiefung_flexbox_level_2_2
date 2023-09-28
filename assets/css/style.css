@@ -21,12 +21,15 @@ a {
     color: inherit;
 }
 
-
+header {
+    height: 76px;
+    border-bottom: 0.5px solid #787878a9;
+}
 
 nav {
     display: flex;
     align-items: center;
-    padding: 2rem 11.625rem;
+    padding: 1.5rem 11rem 4rem 11rem;
 }
 
 
@@ -38,7 +41,7 @@ header > nav > a {
 }
 
 header > nav > a:hover {
-    text-shadow: 0 0 3px #666;
+    text-shadow: 0 0 3px #333;
 }
 
 nav ul {
@@ -51,12 +54,12 @@ nav ul {
 nav ul a {
     font-family: var(--font);
     font-size: 0.8125rem;
-    color: #4C4C4C;
+    color: #333;
     font-weight: 500;
 }
 
 
 nav ul a:hover {
     color: #027de2;
-    text-shadow: 0 0 20px #027de2;
+    text-shadow: 0 0 20px #337ab7;
 }
