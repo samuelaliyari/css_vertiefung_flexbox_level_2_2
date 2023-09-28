@@ -37,6 +37,10 @@ header > nav > a {
     color: #666;
 }
 
+header > nav > a:hover {
+    text-shadow: 0 0 3px #666;
+}
+
 nav ul {
     list-style-type: none;
     display: flex;
@@ -49,4 +53,10 @@ nav ul a {
     font-size: 0.8125rem;
     color: #4C4C4C;
     font-weight: 500;
+}
+
+
+nav ul a:hover {
+    color: #027de2;
+    text-shadow: 0 0 20px #027de2;
 }
