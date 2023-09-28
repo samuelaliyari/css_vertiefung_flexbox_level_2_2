@@ -1,0 +1,52 @@
+
+
+
+@font-face {
+    font-family: Raleway;
+    src: url(../font/Raleway-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font: Raleway
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 2rem 11.625rem;
+}
+
+
+header > nav > a {
+    font-family: var(--font);
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: #666;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 3rem;
+    margin-left: auto;
+}
+
+nav ul a {
+    font-family: var(--font);
+    font-size: 0.8125rem;
+    color: #4C4C4C;
+    font-weight: 500;
+}
